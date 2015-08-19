@@ -1,0 +1,76 @@
+html{
+    background-color: #ffffff;
+}
+
+body{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: #5e5454;
+}
+
+h2{
+    text-align: right;
+    font-style: italic;
+    color: #d87979;
+    
+}
+
+h3{
+   text-align: center;
+   font-weight: bold;
+   font-family: Helvetica, sans-serif;
+   color: #6aa032;
+} 
+
+h4{
+    text-align: left;
+    opacity: 0.5;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    opacity: 0.5;
+}
+
+.header{
+    padding-bottom: 20px;
+}
+
+.calculator{
+    width: 85%; 
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image-box{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#button{
+    background-color: #6aa032;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1.5vw;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 0.5vw;
+    text-align: center;
+    cursor:pointer;
+    
+}
