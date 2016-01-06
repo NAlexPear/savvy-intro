@@ -21,6 +21,9 @@ var calc = function(){
         var div = function(num1, num2){
             return num1/num2;
         };
+        var mod = function(num1, num2) {
+            return num1%num2;
+        };
         
         if(action === 'add'){
             alert(add(num1, num2));
@@ -30,7 +33,10 @@ var calc = function(){
             alert(mult(num1, num2));
         } else if(action === 'divide'){
             alert(div(num1, num2));
-        } else {
+        } else if(action === 'modulo'){
+            alert(mod(num1, num2));
+        }
+        else {
             alert("Please input a valid action! Try 'add', 'subtract', 'multiply', or 'divide'.");
         }
     }
