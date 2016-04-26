@@ -58,7 +58,7 @@ var calc = function(){
     }
 };
 
-var button = document.querySelector("#button");
+var button = document.querySelector("#calculate");
 button.addEventListener("click", function(){
     calc();
 });
