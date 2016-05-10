@@ -1,5 +1,5 @@
 var add = function(num1, num2){
-    return num1 + num2;
+    return parseInt(num1, 10) + parseInt(num2, 10);
 };
 var sub = function(num1, num2){
     return num1 - num2;
@@ -17,8 +17,8 @@ var mod = function(num1, num2) {
 var parseNumbers = function(){
     var input1 = prompt("What is your first number?");
     var input2 = prompt("What is your second number?");
-    var num1 = parseInt(input1, 0);
-    var num2 = parseInt(input2, 0);
+    var num1 = parseInt(input1, 10);
+    var num2 = parseInt(input2, 10);
     
     if(isNaN(num1) === true || isNaN(num2) === true){
         alert("Please input two numbers. Click the button to try again!");
